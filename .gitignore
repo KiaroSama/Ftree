@@ -1,0 +1,54 @@
+# Local command/comment workspaces
+.Commands/
+.Command/
+.Comments/
+.Comment/
+
+# Generated reports and logs
+Reports/*.txt
+Reports/*.html
+Logs/
+Logs/*.log
+logs/
+
+# Runtime caches and generated output
+cache/
+Cache/
+.cache/
+__pycache__/
+temp/
+tmp/
+output/
+outputs/
+dist/
+build/
+downloads/
+
+# Secrets and private session files
+.env
+.env.*
+tokens
+tokens/
+cookies
+cookies/
+sessions
+sessions/
+credentials
+credentials/
+*.token
+*.tokens
+*.cookie
+*.cookies
+*.credential
+*.credentials
+
+# PowerShell temporary files
+*.tmp
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
